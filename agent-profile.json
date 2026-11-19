@@ -37,6 +37,26 @@
           ]
         }
       ]
+    },
+    "services": {
+      "dev.ucp.shopping": [
+        {
+          "version": "2026-08-25",
+          "spec": "https://ucp.dev/2026-08-25/specification/overview/",
+          "transport": "rest",
+          "endpoint": "https://cdn.jsdelivr.net/gh/jburkey28/ucp-agent-profile@main/agent-profile.json",
+          "schema": "https://ucp.dev/2026-08-25/schemas/shopping/rest.openrpc.json"
+        }
+      ],
+      "dev.ucp.common": [
+        {
+          "version": "2026-08-25",
+          "spec": "https://ucp.dev/2026-08-25/specification/overview/",
+          "transport": "rest",
+          "endpoint": "https://cdn.jsdelivr.net/gh/jburkey28/ucp-agent-profile@main/agent-profile.json",
+          "schema": "https://ucp.dev/2026-08-25/schemas/common/rest.openrpc.json"
+        }
+      ]
     }
   }
 }
