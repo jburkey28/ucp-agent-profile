@@ -57,20 +57,15 @@
           "schema": "https://ucp.dev/2026-08-25/schemas/common/rest.openrpc.json"
         }
       ]
+    },
+    "payment_handlers": {
+      "card_tokenized": [
+        {
+          "version": "2026-08-25",
+          "spec": "https://ucp.dev/2026-08-25/specification/shopping/payment/handlers/tokenized-card/",
+          "schema": "https://ucp.dev/2026-08-25/schemas/shopping/payment/handlers/tokenized-card/config.json"
+        }
+      ]
     }
-  },
-  "payment": {
-    "handlers": [
-      {
-        "id": "tokenized_card",
-        "name": "dev.ucp.tokenized.card",
-        "version": "2026-08-25",
-        "spec": "https://ucp.dev/2026-08-25/specification/shopping/payment/handlers/tokenized-card/",
-        "config_schema": "https://ucp.dev/2026-08-25/schemas/shopping/payment/handlers/tokenized-card/config.json",
-        "instrument_schemas": [
-          "https://ucp.dev/2026-08-25/schemas/shopping/types/card_payment_instrument.json"
-        ]
-      }
-    ]
   }
 }
